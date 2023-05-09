@@ -146,7 +146,7 @@
     }
 }
 
-/* SQUARE 12 */
+/* BUTTON 12, 13 */
 
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -177,3 +177,38 @@
     width: 60px;
     height: 20px;
 }
+
+/* SQUARE 12 */
+.ex-12-button:hover .ex-12-top-white {
+    animation: move-line-top 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move-line-bottom 2s linear;
+}
+
+@keyframes move-line-top {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 65%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes move-line-bottom {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 65%;
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+/* SQUARE 13 */
