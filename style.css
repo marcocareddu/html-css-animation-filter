@@ -68,6 +68,14 @@
 }
 
 /* SQUARE 7 */
+.ex-7-img {
+    transition: filter 3s;
+}
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(0.5);
+}
+
+/* SQUARE 8 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
