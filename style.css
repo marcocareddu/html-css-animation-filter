@@ -125,7 +125,29 @@
 /* SQUARE 11 */
 .ex-11-icon {
     font-size: 60px;
+    transform: rotate(0deg);
 }
+
+.ex-11-icon:hover {
+    animation: rotation-90 2s linear;
+}
+
+@keyframes rotation-90 {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    90% {
+        transform: rotate(320deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* SQUARE 12 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
