@@ -57,11 +57,17 @@
     transform: scale(0.5);
 }
 
-/* SQUARE 6 */
+/* IMG 6, 7, 8 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
+/* SQUARE 6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* SQUARE 7 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
